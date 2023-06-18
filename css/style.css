@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background: #1b1b1b;
+  font-family: "Manrope", sans-serif;
+}
+.container {
+  margin: 30px;
+  width: 1240px;
+  height: 340px;
+  border-radius: 10px;
+  background: #ff7a00;
+  color: #b9b9b9;
+  clip-path: polygon(
+    30% 0,
+    33% 20%,
+    35% 20%,
+    100% 20%,
+    100% 80%,
+    93% 100%,
+    0 100%,
+    0 0
+  );
+}
+hr {
+  width: 92%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.card {
+  position: relative;
+  left: 1.2px;
+  top: 2px;
+  width: 1237px;
+  height: 337px;
+  background: #1b1b1b;
+  color: #b9b9b9;
+  clip-path: polygon(
+    30% 0,
+    33% 20%,
+    35% 20%,
+    100% 20%,
+    100% 80%,
+    93% 100%,
+    0 100%,
+    0 0
+  );
+  border-radius: 10px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 10px 30px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wapper {
+  position: relative;
+  margin: 30px;
+  width: 420px;
+  height: 202px;
+  background: #1b1b1b;
+  border-radius: 13px;
+  border: 2px solid #ff7a00;
+  clip-path: polygon(
+    100% 0,
+    100% 20%,
+    35% 20%,
+    100% 20%,
+    100% 80%,
+    93% 100%,
+    0 100%,
+    0 0
+  );
+}
+
+.container-2 {
+  width: 423px;
+  height: 203px;
+  background: #ff7a00;
+  clip-path: polygon(
+    60% 0,
+    63% 20%,
+    35% 20%,
+    100% 20%,
+    100% 80%,
+    93% 100%,
+    0 100%,
+    0 0
+  );
+  border-radius: 10px;
+  font-size: 13px;
+  color: #c0c0c0;
+}
+
+.card-2 {
+  position: relative;
+  top: 1.4px;
+  width: 420px;
+  height: 200px;
+  background: #1b1b1b;
+  clip-path: polygon(
+    60% 0,
+    63% 20%,
+    35% 20%,
+    100% 20%,
+    100% 80%,
+    93% 100%,
+    0 100%,
+    0 0
+  );
+  border-radius: 10px;
+}
+
+.card-head-2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.card-body-2 {
+  padding: 10px 20px;
+}
+.time-text {
+  position: absolute;
+  top: 55px;
+  right: 15px;
+}
+
+.card-2-star {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.star {
+  color: #ff7a00;
+}
+.star-white{
+  color: #b9b9b9
+}
+.likes {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+.reply{
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  padding-right: 30px;
+}
+.title{
+  font-weight: bold;
+  color: white;
+}
